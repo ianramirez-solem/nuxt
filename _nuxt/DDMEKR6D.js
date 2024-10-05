@@ -1,0 +1,1 @@
+import{C as r,B as u}from"./IslBUnDr.js";const g=r("authTest",()=>{const{loggedIn:e,user:t,session:n,clear:o,fetch:s}=u();return{signIn:async({name:a,password:i})=>{await $fetch("/api/auth/loginTest",{method:"POST",body:{name:a,password:i}}),await s()},loggedIn:e,user:t,session:n,clear:o,fetch:s}});export{g as u};
