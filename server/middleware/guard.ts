@@ -4,7 +4,7 @@ export default defineEventHandler(async (event) => {
     const { pathname } = new URL(url);
     
     // Definir rutas protegidas
-    const protectedRoutes = ["/api/users", "/dashboard"];
+    const protectedRoutes = ["/api/users", "/dashboard", "/api/customers"];
   
     // Verificar si la ruta actual está en la lista de rutas protegidas
     if (protectedRoutes.includes(pathname)) {

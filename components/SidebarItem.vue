@@ -47,5 +47,6 @@
 <script setup lang="ts">
   const props = defineProps<{
     links?: any[];
+    
   }>();
 </script>
