@@ -45,7 +45,7 @@
             >
               <div class="border-b px-3 py-1.5 text-sm">
                 <p class="font-semibold">{{ useAuthTestStore().user.name }}</p>
-                <a href="mailto:{{useAuthTestStore().user.name}}@test.com" class="leading-none text-muted-foreground"
+                <a :href="`mailto:${useAuthTestStore().user.name}@test.com`" class="leading-none text-muted-foreground"
                   >{{useAuthTestStore().user.name}}@test.com</a
                 >
               </div>
