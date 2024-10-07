@@ -1,1 +1,0 @@
-import{a6 as s,a7 as a,Y as o}from"./IslBUnDr.js";import{u}from"./DDMEKR6D.js";const c=s(async r=>{let e,t;if(!([e,t]=a(()=>u().loggedIn),e=await e,t(),e))return[e,t]=a(()=>o({path:"/login",query:{redirect:r.fullPath}})),e=await e,t(),e});export{c as default};

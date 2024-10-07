@@ -1,0 +1,1 @@
+import{u as o}from"./QOnByfPP.js";import{m as e,o as a,c as r,Y as s}from"./BQIhvCA_.js";const p=e({__name:"logout",setup(n){return(async()=>{await o().clear(),s("/")})(),(t,u)=>(a(),r("div"))}});export{p as default};

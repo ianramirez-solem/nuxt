@@ -1,1 +1,0 @@
-import{u as o}from"./DDMEKR6D.js";import{m as e,o as a,c as r,Y as s}from"./IslBUnDr.js";const p=e({__name:"logout",setup(n){return(async()=>{await o().clear(),s("/")})(),(t,u)=>(a(),r("div"))}});export{p as default};

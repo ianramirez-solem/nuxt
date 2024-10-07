@@ -1,1 +1,0 @@
-import{_ as n,c as t,a as o,o as a}from"./IslBUnDr.js";const r={};function c(s,e){return a(),t("div",null,e[0]||(e[0]=[o("h1",null,"Page Contact",-1)]))}const _=n(r,[["render",c]]);export{_ as default};
